@@ -48,22 +48,6 @@ default 760 px, step 10 px).
 - The value is not written to `cordis.patch.yml`; clearing browser data resets
   it to the default.
 
-## Install
-
-```sh
-dsh plugin --profile web add github:xiaoyangcheng84-svg/dsh-skin-manager
-```
-
-Then restart `dsh web` (or rely on the market's hot install). Open
-**Settings → Skins** after a page refresh.
-
-> Desktop installs should use **Settings → Plugins** with the local package
-> directory/tgz; `dsh plugin --profile desktop` is rejected for the Electron
-> profile.
-
-> Requires git for the `github:` source install; alternatively install from a
-> local checkout with `dsh plugin --profile web add link:<path>`.
-
 ## Usage
 
 1. Open **Settings → Skins**.

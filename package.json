@@ -3,7 +3,7 @@
   "version": "0.1.11",
   "description": "Dynamic skin manager for the dsh web GUI: discovers every installed skin, switches the active skin, and exposes the active skin's settings (including Silver Wolf's wallpaper width) in Settings → Skins",
   "license": "MIT",
-  "author": "xiaoyangcheng84-svg",
+  "author": "proglop",
   "icon": "assets/icon.png",
   "repository": {
     "type": "git",

@@ -39,21 +39,6 @@
 - 银狼皮肤 client 监听该事件并更新 `--sw-wallpaper-width`，无需刷新页面；
 - 该值不写入 `cordis.patch.yml`。清浏览器数据会回默认值。
 
-## 安装
-
-```sh
-dsh plugin --profile web add github:xiaoyangcheng84-svg/dsh-skin-manager
-```
-
-然后重启 `dsh web`（或走插件市场热安装）。刷新页面后打开
-**设置 → 皮肤**。
-
-> Desktop 版请通过「设置 → 插件」安装本地的目录或 tgz，不要用
-> `dsh plugin --profile desktop`（Electron 保留 profile 会拒绝）。
-
-> `github:` 源安装需要本机有 git；也可以本地 checkout 后用
-> `dsh plugin --profile web add link:<路径>` 安装。
-
 ## 使用
 
 1. 打开 **设置 → 皮肤**
